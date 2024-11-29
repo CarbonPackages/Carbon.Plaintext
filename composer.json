@@ -1,0 +1,24 @@
+{
+    "description": "Convert HTML to Plaintext for Neos CMS",
+    "type": "neos-carbon",
+    "name": "carbon/plaintext",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "neos/neos": "^8.3",
+        "ext-mbstring": "*",
+        "carbon/notification": "^2.4"
+    },
+    "authors": [
+        {
+            "name": "Jon Uhlmann",
+            "email": "hello@uhlmann.pro",
+            "homepage": "https://www.uhlmann.pro",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Carbon\\Plaintext\\": "Classes"
+        }
+    }
+}
