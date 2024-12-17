@@ -12,7 +12,7 @@ Add the package in your site package:
 composer require --no-update carbon/plaintext
 ```
 
-The run `composer update` in your project root.
+Then run `composer update` in your project root.
 
 ## Special CSS classes
 
