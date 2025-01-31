@@ -1,5 +1,5 @@
 prototype(Carbon.Plaintext:Page) < prototype(Carbon.Plaintext:Presentation.Plaintext) {
-    @propTypes.content = ${PropTypes.string.isRequired}
+    @propTypes.content = ${PropTypes.string}
 
     @context {
         documentNode = ${q(documentNode).context({'workspaceName': 'live'}).get(0)}
